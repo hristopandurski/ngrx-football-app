@@ -1,0 +1,10 @@
+<section class="player-tile">
+  <div>{{playerTiles$ | async}}</div>
+  <div class="tile-container" *ngFor="let playerData of playerTiles$ | async">
+    <img class="player-image" [src]="playerData.imageUrl">
+    <span class="player-position">{{playerData.position}}</span>
+    <div class="player-description">
+      <h2>{{playerData.description}}</h2>
+    </div>
+  </div>
+</section>

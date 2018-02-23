@@ -1,0 +1,61 @@
+@keyframes floatUp {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatDown {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatLeft {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-10px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+
+@keyframes floatRight {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(10px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+        visibility: visible;
+        opacity: 0.5;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+}

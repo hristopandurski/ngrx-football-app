@@ -1,0 +1,38 @@
+<header class="home-header">
+  <img class="header-background" src="http://www.espn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_background.svg">
+  <img class="header-background-mobile" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_mobileheader_players4.png">
+  <img class="header-main-image" src="./../assets/images/ball.png">
+  <!-- <div class="header-faces">
+    <img class="alves" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_alves.svg">
+    <img class="benzema" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_benzema.svg">
+    <img class="buffon" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_buffon.svg">
+    <img class="conte" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_conte.svg">
+    <img class="debruyne" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_debruyne.svg">
+    <img class="degea" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_degea.svg">
+    <img class="isco" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_isco.svg">
+    <img class="lewandowski" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_lewandowski.svg">
+    <img class="mane" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_mane.svg">
+    <img class="marcelo" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_marcello.svg">
+    <img class="mendy" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_mendy.svg">
+    <img class="messi" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_messi.svg">
+    <img class="modric" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_modric.svg">
+    <img class="neuer" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_neuer.svg">
+    <img class="neymar" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_neymar.svg">
+    <img class="pep" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_pep.svg">
+    <img class="ramos" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_ramos.svg">
+    <img class="ronaldo" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_ronaldo.svg">
+    <img class="sanchez" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_sanchez.svg">
+    <img class="suarez" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_suarez.svg">
+    <img class="willian" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_willian.svg">
+    <img class="zidane" src="http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/tsa_zidane.svg">
+  </div> -->
+  <div class="header-faces">
+    <img *ngFor="let face of playerFaces$ | async" [src]="face.imageUrl" [ngClass]="face.name">
+  </div>
+  <div class="header-text-container">
+    <p class="header-text">
+      Debating the best players and managers in the world is a timeless exercise that always sparks conversation. So we've taken our ranking to a new level this year. Whether you're new to the sport or a die-hard fan, these are the 100 best men's players and managers in football that you need to know. With more than 60 ESPN voters spanning regions around the world, we've broken down the game's top players by position for the most authoritative and comprehensive list yet. We know, some players are so versatile that they often defy classification, but we've tried to bring some order to the chaos that is modern football. The greatest thrill of 2017's list is the sheer volume of new talent that has emerged over the past year. While the likes of Lionel Messi and Sergio Ramos remain a constant, there's room for youngsters such as Kylian Mbappe, Leroy Sane and Marco Asensio. We've also included a brand-new metric, "Player Value," compiled by Football Whispers. Based on player performance, age and position, its algorithm hopes to settle the debate once and for all: How much should a player sell for? So dig in, browse around and see who ranks where. 
+    </p>
+  </div>
+</header>
+<app-player-tile></app-player-tile>

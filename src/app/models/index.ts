@@ -1,0 +1,1 @@
+export { PlayerTiles, PlayerFaces } from './players.model';

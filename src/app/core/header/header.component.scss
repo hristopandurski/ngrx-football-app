@@ -1,0 +1,14 @@
+@import 'settings.colors';
+@import 'settings.fonts';
+
+nav {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background: $mainColor;
+    padding: 1.5em;
+    transition: all 1s ease-in-out;
+    color: #FFF;
+}

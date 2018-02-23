@@ -9,7 +9,9 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        { "glob": "tiles-data.json", "input": "./data/", "output": "./assets" },
+        { "glob": "faces-data.json", "input": "./data/", "output": "./assets" }
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,8 +21,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "assets/scss/app.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "assets/scss"
+        ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.ttf') format('truetype'), url('../fonts/HelveticaNeue.eot') format('embedded-opentype'), url('../fonts/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+  
+html { 
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'HelveticaNeue';
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #F1F1F1;
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_GK.png",
+        "position": "GK",
+        "description": "Goalkeeper"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_RB.png",
+        "position": "RB",
+        "description": "Right-Back"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_CB.png",
+        "position": "CB",
+        "description": "Center-Back"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_LB.png",
+        "position": "LB",
+        "description": "Left-Back"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_CM.png",
+        "position": "CM",
+        "description": "Central-Mid"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_AM.png",
+        "position": "AM",
+        "description": "Attacking-Mid"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_WF.png",
+        "position": "WF",
+        "description": "Wide-Forward"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_F.png",
+        "position": "F",
+        "description": "Forward"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_PS.png",
+        "position": "S",
+        "description": "Striker"
+    },
+    {
+        "imageUrl": "http://a.espncdn.com/prod/styles/pagetype/otl/20171127_fc100/images/fc100_buttons_M.png",
+        "position": "M",
+        "description": "Manager"
+    }
+]
