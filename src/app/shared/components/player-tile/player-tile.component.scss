@@ -1,5 +1,6 @@
 @import 'settings.colors';
 @import 'settings.fonts';
+@import 'settings.keyframes';
 
 .player-tile {
     overflow: hidden;
@@ -8,6 +9,7 @@
     padding-right: 0;
     margin-top: -25%;
     z-index: 5;
+    animation: 1.5s fadeIn;
 }
 
 .tile-container {

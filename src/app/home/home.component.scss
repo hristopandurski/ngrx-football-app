@@ -9,7 +9,6 @@
     top: 50px;
     animation: 1.5s fadeIn;
     animation-fill-mode: forwards;
-    background: linear-gradient(to right,#efefef 40%,#fff 50%) !important;
 
     &:before {
         content: " ";
@@ -208,7 +207,6 @@
 
         .header-text {
             color: #333;
-            font-family: "bentonsans",Helvetica,Arial,sans-serif;
             font-weight: normal;
             font-size: 1em;
             margin-top: .5em;

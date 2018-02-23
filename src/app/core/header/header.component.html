@@ -1,7 +1,12 @@
 <nav class="flex justify-space-between">
-  <div>Menu</div>
+  <div class="hamburger-menu" (click)="isOpen = !isOpen" [ngClass]="{'open': isOpen === true }">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <div>
     <span>FB</span>
     <span>Twitter</span>
   </div>
 </nav>
+<app-sidebar [hidden]="!isOpen"></app-sidebar>

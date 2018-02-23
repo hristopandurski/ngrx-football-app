@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Components
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing-module';
-import { HeaderComponent } from './core/header/header.component';
 
 // Services
 import { PlayersService } from './shared/services/players.service';
@@ -22,8 +21,7 @@ import { PlayersEffects } from './effects/players.effect';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +30,7 @@ import { PlayersEffects } from './effects/players.effect';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    CoreModule,
     StoreModule.forRoot({ data: playersReducer }),
     EffectsModule.forRoot([PlayersEffects]),
     StoreDevtoolsModule.instrument()

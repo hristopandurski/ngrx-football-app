@@ -1,0 +1,31 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -1px;
+    z-index: 101;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    width: 200px;
+    height: 100vh;
+    padding: 1em;
+    background-color: white;
+    z-index: 5;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-left: 1px solid #c8c7c4;
+
+    ul {
+        position: relative;
+        top: 100px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+        li {
+            margin-bottom: 18px;
+            width: 100%;
+            display: block;
+        }
+    }
+}

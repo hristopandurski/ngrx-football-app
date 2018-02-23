@@ -12,3 +12,63 @@ nav {
     transition: all 1s ease-in-out;
     color: #FFF;
 }
+
+.hamburger-menu {
+    margin: 8px 12px -8px 5px;
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    position: relative;
+    transform: rotate(0);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+    span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #fff;
+        border-radius: 0;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0);
+        transition: .25s ease-in-out;
+
+        &:nth-child(1) {
+            top: 0;
+            transform-origin: left center;
+        }
+
+        &:nth-child(2) {
+            top: 10px;
+            transform-origin: left center;
+        }
+
+        &:nth-child(3) {
+            top: 20px;
+            transform-origin: left center;
+        }
+    }
+}
+
+.hamburger-menu.open {
+    span {
+        &:nth-child(1) {
+            transform: rotate(45deg);
+            top: -1px;
+            left: 8px;
+        }
+
+        &:nth-child(2) {
+            width: 0;
+            opacity: 0;
+        }
+
+        &:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 22px;
+            left: 8px;
+        } 
+    }
+}

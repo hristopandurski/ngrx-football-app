@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlayerTileComponent } from './components/player-tile/player-tile.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    PlayerTileComponent
+    PlayerTileComponent,
+    SidebarComponent
   ],
   exports: [
-    PlayerTileComponent
+    PlayerTileComponent,
+    SidebarComponent
   ]
 })
 export class SharedModule { }
