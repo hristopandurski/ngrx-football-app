@@ -1,1 +1,1 @@
-export { PlayerTiles, PlayerFaces } from './players.model';
+export * from './players.model';

@@ -1,5 +1,4 @@
-<section class="player-tile">
-  <div>{{playerTiles$ | async}}</div>
+<section class="player-tile" [@staggerAnimation]="(playerTiles$|async)">
   <div class="tile-container" *ngFor="let playerData of playerTiles$ | async">
     <img class="player-image" [src]="playerData.imageUrl">
     <span class="player-position">{{playerData.position}}</span>

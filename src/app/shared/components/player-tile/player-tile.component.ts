@@ -4,11 +4,13 @@ import { PlayerTilesState } from '../../../models/players.state';
 import * as playerTilesActions from '../../../actions/players.action';
 import { Observable } from 'rxjs/Observable';
 import { Store } from '@ngrx/store';
+import { staggerAnimation } from '../../animations';
 
 @Component({
   selector: 'app-player-tile',
   templateUrl: './player-tile.component.html',
-  styleUrls: ['./player-tile.component.scss']
+  styleUrls: ['./player-tile.component.scss'],
+  animations: [staggerAnimation(150, 450)]
 })
 export class PlayerTileComponent implements OnInit {
   constructor(private store: Store<PlayerTilesState>) {

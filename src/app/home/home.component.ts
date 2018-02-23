@@ -22,7 +22,5 @@ export class HomeComponent implements OnInit {
 
   getPlayerFaces() {
     this.store.dispatch(new playerFacesActions.LoadPlayerFacesAction());
-
-    console.log('this.playerFaces', this.playerFaces$);
   }
 }

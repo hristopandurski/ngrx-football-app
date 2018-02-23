@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { CoreModule } from './core/core.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Components
 import { AppComponent } from './app.component';
@@ -30,6 +31,7 @@ import { PlayersEffects } from './effects/players.effect';
     HttpModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
     StoreModule.forRoot({ data: playersReducer }),
     EffectsModule.forRoot([PlayersEffects]),
     StoreDevtoolsModule.instrument()
